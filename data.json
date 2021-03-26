@@ -4,8 +4,8 @@
     "https://openactive.io/"
   ],
   "@type": "Dataset",
-  "@id": "TODO: URL TO THIS PAGE",
-  "url": "TODO: URL TO THIS PAGE",
+  "@id": "https://groopltd.github.io/",
+  "url": "https://groopltd.github.io/",
   "name": "Groop Events",
   "description": "Events from Groop",
   "keywords": [
@@ -16,7 +16,17 @@
     "OpenActive"
   ],
   "license": "https://creativecommons.org/licenses/by/4.0/",
-  "discussionUrl": "TODO: GITHUB DISCUSSION BOARD",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "Event",
+      "additionalType": "https://schema.org/Event",
+      "contentUrl": "https://api.groop.com/events",
+      "encodingFormat": "application/vnd.openactive.rpde+json; version=1",
+      "identifier": "Event"
+    }
+  ],
+  "discussionUrl": "https://github.com/GroopLtd/OpenActive/issues",
   "documentation": "https://developer.openactive.io/",
   "inLanguage": [
     "en-GB"
