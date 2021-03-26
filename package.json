@@ -1,0 +1,14 @@
+{
+  "name": "openactive-dataset-site",
+  "version": "1.0.0",
+  "description": "Static page for OpenActive dataset",
+  "main": "index.js",
+  "scripts": {
+    "build": "mustache data.json datasetsite.mustache > index.html"
+  },
+  "author": "Groop",
+  "license": "ISC",
+  "devDependencies": {
+    "mustache": "^4.1.0"
+  }
+}
