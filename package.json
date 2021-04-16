@@ -4,7 +4,7 @@
   "description": "Static page for OpenActive dataset",
   "main": "index.js",
   "scripts": {
-    "build": "mustache data.json datasetsite.mustache > index.html"
+    "build": "node build.js"
   },
   "author": "Groop",
   "license": "ISC",
