@@ -941,7 +941,60 @@
 
     <!-- JSON-LD conforming to Google Structured Data specification. -->
     <script type="application/ld+json">
-
+{
+  "@context": [
+    "https://schema.org/",
+    "https://openactive.io/"
+  ],
+  "@type": "Dataset",
+  "@id": "https://groopltd.github.io/",
+  "url": "https://groopltd.github.io/",
+  "name": "Groop Events",
+  "description": "Events from Groop",
+  "keywords": [
+    "Sessions",
+    "Activities",
+    "Sports",
+    "Physical Activity",
+    "OpenActive"
+  ],
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "name": "Event",
+      "additionalType": "https://schema.org/Event",
+      "contentUrl": "https://api.groop.com/events",
+      "encodingFormat": "application/vnd.openactive.rpde+json; version=1",
+      "identifier": "Event"
+    }
+  ],
+  "discussionUrl": "https://github.com/GroopLtd/OpenActive/issues",
+  "documentation": "https://developer.openactive.io/",
+  "inLanguage": [
+    "en-GB"
+  ],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Groop",
+    "description": "Groop is software built to co-ordinate and organise volunteers, staff and citizens.",
+    "email": "info@groop.com",
+    "legalName": "Groop",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://groop.com/wp-content/themes/groop.com/dist/assets/images/logo-dark.svg"
+    },
+    "url": "https://groop.com/"
+  },
+  "dateModified": "2020-04-23T09:01:05+01:00",
+  "datePublished": "2019-04-25T19:32:14+00:00",
+  "schemaVersion": "https://openactive.io/modelling-opportunity-data/2.0/",
+  "backgroundColor": "#01359f",
+  "backgroundImage": {
+    "@type": "ImageObject",
+    "url": "#"
+  }
+}
     </script>
 </head>
 <body class="is-loading">
