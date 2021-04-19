@@ -46,7 +46,6 @@
   "dateModified": "2020-04-23T09:01:05+01:00",
   "datePublished": "2019-04-25T19:32:14+00:00",
   "schemaVersion": "https://openactive.io/modelling-opportunity-data/2.0/",
-  "backgroundColor": "#01359f",
   "backgroundImage": {
     "@type": "ImageObject",
     "url": "https://groopltd.github.io/images/groop-background.png"
